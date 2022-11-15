@@ -1,0 +1,115 @@
+@media screen and (max-width:700px) {
+
+    html {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-bar ul {
+        width: 100%;
+        align-items: stretch;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.85);
+        padding: 15 0;
+    }
+
+    .nav-bar img {
+        margin-bottom: 20;
+    }
+
+    .nav-bar li {
+        border-bottom: rgba(128, 128, 128, 0.313) solid 1px;
+        padding: 0 0 8;
+        margin-bottom: 10;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+
+    .about-info .info {
+        width: 100%;
+    }
+
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-info {
+        width: 100%;
+    }
+
+    .portfolio-images {
+        flex-direction: column;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .form {
+        order: -1;
+        padding: 0;
+        margin-bottom: 4rem;
+    }
+
+    .resume {
+        display: flex;
+
+        flex-wrap: wrap;
+
+    }
+
+    .experience {
+        margin-right: 0;
+    }
+
+    .skill {
+        padding: 1rem 0;
+        width: 100%;
+        padding-right: 0;
+
+    }
+.resume .order{
+    order: -1;
+}
+}
+
+@media screen and (max-width:990px) {
+    .about-info {
+        flex-direction: column;
+
+    }
+
+    .counter div {
+        width: 50%;
+        margin-top: 0;
+        padding: 0 10;
+    }
+
+    .about-info .info {
+        text-align: center;
+
+    }
+
+    .visibility {
+        display: none;
+    }
+
+    .client {
+        width: 100%;
+    }
+
+
+}
